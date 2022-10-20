@@ -1,0 +1,81 @@
+body {
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#hero {
+    width: 500px;
+    height: 400px;
+    margin: 50px auto 50px;
+    border: 4px solid #111827;
+    border-radius: 5px;
+    padding: 40px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#hero--title {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+#hero--title > span {
+    display: block;
+    color: #0EA5E9;
+}
+
+#hero--sub-title {
+    margin-top: 4px;
+    color: #D5D4D8;
+    font-size: 1.2rem;
+}
+
+#hero--pass-btn {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    margin-top: 30px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #0EA5E9;
+    color: white;
+    cursor: pointer;
+    transition: opacity 100ms linear;
+}
+
+#hero--pass-btn:hover {
+    opacity: 0.6;
+}
+
+#hero--pass-btn:active {
+    opacity: 0.9;
+}
+
+#hero--horizontal {
+    border: none;
+    width: 100%;
+    height: 2px;
+    margin: 40px 0 40px;
+    background: #111827;
+}
+
+#hero--pass-field-wrapper {
+    align-self: center;
+    display: flex;
+    gap: 20px;
+}
+
+.hero--pass-field {
+    min-height: 2.3rem;
+    width: 240px;
+    padding: 10px 30px;
+    border: none;
+    background: #111827;
+    color: #0EA5E9;
+    font-size: 14px;
+    cursor: pointer;
+}
